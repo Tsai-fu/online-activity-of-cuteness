@@ -7,14 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cute Identifier</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
-    <h1>Slider to Control Level of Cuteness</h1>
-    <div class="slidecontainer">
-        <p>Value #1:</p>
-        <br>
-        <input type="range" min="1" max="100" value="50" class="slider">
+<body class="homepage">
+    <main>
+        <h1>Panda</h1>
+    </main>
+
+    <main class="main-section">
+        <div class="illustration">
+            <img src="images/crayon-panda.png" alt="crayon-panda" id="Panda">
+        </div>
+
+        <div class="slidecontainer">
+            <label for="value#1">Value #1</label>
+            <input type="range" min="5" max="11" value="8" class="slider" id="Slider" name="value#1">
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
